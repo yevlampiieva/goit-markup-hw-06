@@ -227,7 +227,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--brand-color);
-  border: transparent;
+  border-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   /* text-align: center; */
@@ -488,6 +488,7 @@ img {
 }
 
 .footer-right {
+  margin-right: 80px;
 }
 
 .footer-title {
@@ -527,6 +528,79 @@ img {
 .footer-soclial-list-link:hover,
 .footer-soclial-list-link:focus {
   background-color: var(--background-footer-accent);
+}
+
+.footer-last {
+  margin: 0 auto;
+}
+.footer-last-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+.footer-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-email-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  background-color: transparent;
+  color: var(--white-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  border-radius: 4px;
+  transition: border var(--transition);
+}
+
+.user-email-input:focus {
+  border: 1px solid var(--brand-color);
+}
+
+.user-email-input::placeholder {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.footer-btn-icon {
+  margin-left: 16px;
+  background-color: transparent;
+  fill: var(--white-color);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: var(--background-btn-accent);
 }
 
 /* PORTFOLIO PAGE */
