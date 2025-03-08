@@ -1,66 +1,7 @@
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-/* #region Header */
-/* #endregion Header */
-
-/* #region Hero */
-.hero {
-  background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-  text-transform: capitalize;
-  margin: 0 auto;
-  margin-bottom: 48px;
-  max-width: 496px;
-}
-
-.hero-title-accent {
-  text-transform: lowercase;
-}
-
-.hero-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-  min-width: 169px;
-  display: block;
-  margin: 0 auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
-}
-/* #endregion Hero */
-
-/* #region About */
+} */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -69,36 +10,13 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
+/* #region Header */
+/* #endregion Header */
 
-.about-list {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
+/* #region Hero */
+/* #endregion Hero */
 
-.about-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.about-icon {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-}
-
-.about-subtitle {
-  margin-bottom: 8px;
-}
-
-.about-text {
-  letter-spacing: 0.02em;
-}
+/* #region About */
 /* #endregion About */
 
 /* #region Our team */
