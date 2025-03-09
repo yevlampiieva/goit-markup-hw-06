@@ -317,7 +317,7 @@
       </section>
 
       <!--Section Portfolio-->
-      <section hidden class="section portfolio">
+      <section class="section portfolio">
         <div class="container">
           <h2 class="section-title portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -332,14 +332,14 @@
                     "
                   />
                   <source
-                    media="(min-width: 678px)"
+                    media="(min-width: 768px)"
                     srcset="
                       ./images/portfolio-tablet/portfolio-tablet-1.jpg    1x,
                       ./images/portfolio-tablet/portfolio-tablet-1@2x.jpg 2x
                     "
                   />
                   <source
-                    media="(max-width: 677px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio-mob/portfolio-mob-1.jpg    1x,
                       ./images/portfolio-mob/portfolio-mob-1@2x.jpg 2x
@@ -375,14 +375,14 @@
                     "
                   />
                   <source
-                    media="(min-width: 678px)"
+                    media="(min-width: 768px)"
                     srcset="
                       ./images/portfolio-tablet/portfolio-tablet-2.jpg    1x,
                       ./images/portfolio-tablet/portfolio-tablet-2@2x.jpg 2x
                     "
                   />
                   <source
-                    media="(max-width: 677px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio-mob/portfolio-mob-2.jpg    1x,
                       ./images/portfolio-mob/portfolio-mob-2@2x.jpg 2x
@@ -417,14 +417,14 @@
                     "
                   />
                   <source
-                    media="(min-width: 678px)"
+                    media="(min-width: 768px)"
                     srcset="
                       ./images/portfolio-tablet/portfolio-tablet-3.jpg    1x,
                       ./images/portfolio-tablet/portfolio-tablet-3@2x.jpg 2x
                     "
                   />
                   <source
-                    media="(max-width: 677px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio-mob/portfolio-mob-3.jpg    1x,
                       ./images/portfolio-mob/portfolio-mob-3@2x.jpg 2x
@@ -459,14 +459,14 @@
                     "
                   />
                   <source
-                    media="(min-width: 678px)"
+                    media="(min-width: 768px)"
                     srcset="
                       ./images/portfolio-tablet/portfolio-tablet-4.jpg    1x,
                       ./images/portfolio-tablet/portfolio-tablet-4@2x.jpg 2x
                     "
                   />
                   <source
-                    media="(max-width: 677px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio-mob/portfolio-mob-4.jpg    1x,
                       ./images/portfolio-mob/portfolio-mob-4@2x.jpg 2x
@@ -501,14 +501,14 @@
                     "
                   />
                   <source
-                    media="(min-width: 678px)"
+                    media="(min-width: 768px)"
                     srcset="
                       ./images/portfolio-tablet/portfolio-tablet-5.jpg    1x,
                       ./images/portfolio-tablet/portfolio-tablet-5@2x.jpg 2x
                     "
                   />
                   <source
-                    media="(max-width: 677px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio-mob/portfolio-mob-5.jpg    1x,
                       ./images/portfolio-mob/portfolio-mob-5@2x.jpg 2x
@@ -543,14 +543,14 @@
                     "
                   />
                   <source
-                    media="(min-width: 678px)"
+                    media="(min-width: 768px)"
                     srcset="
                       ./images/portfolio-tablet/portfolio-tablet-6.jpg    1x,
                       ./images/portfolio-tablet/portfolio-tablet-6@2x.jpg 2x
                     "
                   />
                   <source
-                    media="(max-width: 677px)"
+                    media="(max-width: 767px)"
                     srcset="
                       ./images/portfolio-mob/portfolio-mob-6.jpg    1x,
                       ./images/portfolio-mob/portfolio-mob-6@2x.jpg 2x
@@ -580,7 +580,7 @@
     </main>
 
     <!--Footer-->
-    <footer hidden class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-container">
           <a class="logo footer-logo" href="./index.html"
@@ -649,7 +649,7 @@
     </footer>
 
     <!-- Modal -->
-    <div hidden class="modal-backdrop" data-modal>
+    <div class="modal-backdrop" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -712,8 +712,10 @@
                 <svg class="modal-custom-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
-              >I accept the terms and conditions of the&nbsp;
-              <a class="modal-link" href="">Privacy Policy</a>
+              ><span class="modal-check-label-text"
+                >I accept the terms and conditions of the&nbsp;
+                <a class="modal-link" href="">Privacy Policy</a></span
+              >
             </label>
           </div>
 
